@@ -31,6 +31,15 @@
         };
     };
 
+    behaviors {
+        new_behavior: new_behavior {
+            compatible = "zmk,behavior-soft-off";
+            label = "NEW_BEHAVIOR";
+            #binding-cells = <0>;
+            hold-time-ms = <500>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
