@@ -66,10 +66,10 @@
         sym_layer {
             label = "Sym";
             bindings = <
-&kp ESCAPE    &none  &none           &none            &none              &none                      &none          &none          &none        &none    &none  &kp BACKSPACE
-&kp LEFT_GUI  &none  &kp C_PREVIOUS  &kp C_VOLUME_UP  &kp C_VOLUME_DOWN  &kp C_NEXT                 &kp C_AC_HOME  &kp PAGE_DOWN  &kp PAGE_UP  &kp END  &none  &kp SQT
-&kp TAB       &none  &none           &none            &none              &none                      &none          &none          &none        &none    &none  &kp RETURN
-                     &none           &none            &none              &kp LEFT_SHIFT  &kp SPACE  &none          &none          &none
+&kp ESCAPE    &none  &none           &none              &none         &none                      &none     &none          &none        &none    &none  &kp BACKSPACE
+&kp LEFT_GUI  &none  &kp C_PREVIOUS  &kp C_VOLUME_DOWN  &kp C_VOL_UP  &kp C_NEXT                 &kp HOME  &kp PAGE_DOWN  &kp PAGE_UP  &kp END  &none  &kp SQT
+&kp TAB       &none  &none           &none              &none         &none                      &none     &none          &none        &none    &none  &kp RETURN
+                     &none           &none              &none         &kp LEFT_SHIFT  &kp SPACE  &none     &none          &none
             >;
         };
     };
