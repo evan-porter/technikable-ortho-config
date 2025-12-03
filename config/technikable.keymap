@@ -22,9 +22,9 @@
     conditional_layers {
         compatible = "zmk,conditional-layers";
 
-        tri_layer {
-            if-layers = <NAV_L NUM_L>;
-            then-layer = <SYM_L>;
+        Layer3 {
+            if-layers = <1 2>;
+            then-layer = <3>;
         };
     };
 
@@ -44,9 +44,9 @@
         nav_layer {
             label = "Nav";
             bindings = <
-&kp ESCAPE    &none  &none          &none          &none             &none                       &none           &none     &none         &none         &none  &kp DEL
-&kp LEFT_GUI  &none  &kp C_AC_HOME  &kp C_AC_BACK  &kp C_AC_FORWARD  &kp C_AC_SEARCH             &kp LEFT_ARROW  &kp DOWN  &kp UP_ARROW  &kp UP_ARROW  &none  &kp SINGLE_QUOTE
-&kp TAB       &none  &none          &none          &none             &none                       &none           &none     &none         &none         &none  &kp ENTER
+&kp ESCAPE    &none  &none          &none          &none             &none                       &none           &none     &none         &none      &none  &kp DEL
+&kp LEFT_GUI  &none  &kp C_AC_HOME  &kp C_AC_BACK  &kp C_AC_FORWARD  &kp C_AC_SEARCH             &kp LEFT_ARROW  &kp DOWN  &kp UP_ARROW  &kp RIGHT  &none  &kp SINGLE_QUOTE
+&kp TAB       &none  &none          &none          &none             &none                       &none           &none     &none         &none      &none  &kp ENTER
                      &none          &none          &none             &kp LEFT_SHIFT   &kp SPACE  &mo 3           &none     &none
             >;
         };
