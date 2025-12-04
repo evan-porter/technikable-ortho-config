@@ -29,6 +29,11 @@
             bindings = <&mo 3>;
             key-positions = <38 41>;
         };
+
+        MissionControl {
+            bindings = <&kp LC(UP_ARROW)>;
+            key-positions = <42 43>;
+        };
     };
 
     behaviors {
