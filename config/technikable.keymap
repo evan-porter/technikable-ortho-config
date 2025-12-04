@@ -34,6 +34,16 @@
             bindings = <&kp LC(UP_ARROW)>;
             key-positions = <36 37 38>;
         };
+
+        Screenshot {
+            bindings = <&kp LG(LS(N5))>;
+            key-positions = <36 43 37 42>;
+        };
+
+        OnePassword {
+            bindings = <&kp LS(LC(BACKSLASH))>;
+            key-positions = <36 43>;
+        };
     };
 
     behaviors {
