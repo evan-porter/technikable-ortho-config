@@ -41,7 +41,7 @@
         };
 
         OnePassword {
-            bindings = <&kp LS(LC(BACKSLASH))>;
+            bindings = <&kp LG(BACKSLASH)>;
             key-positions = <36 43>;
         };
     };
