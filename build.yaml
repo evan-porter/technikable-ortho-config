@@ -21,3 +21,4 @@ include:
   - board: technikable
   - board: technikable@1.1
     cmake-args: -DCONFIG_BT_CTLR_TX_PWR_PLUS_8=y
+    cmake-args: -DCONFIG_BT_CTLR_PHY_2M=n
